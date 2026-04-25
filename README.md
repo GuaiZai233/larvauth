@@ -1,6 +1,6 @@
-# Larvar
+# LarvAuth
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-yellow.svg)](LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/GuaiZai233/Larvar)](https://goreportcard.com/report/github.com/GuaiZai233/Larvar) [![pkg.go.dev](https://pkg.go.dev/badge/github.com/GuaiZai233/Larvar)](https://pkg.go.dev/github.com/GuaiZai233/Larvar) ![Go Version](https://img.shields.io/badge/go-1.25-blue?logo=go)
+# [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-yellow.svg)](LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/GuaiZai233/larvauth)](https://goreportcard.com/report/github.com/GuaiZai233/larvauth) [![pkg.go.dev](https://pkg.go.dev/badge/github.com/GuaiZai233/larvauth)](https://pkg.go.dev/github.com/GuaiZai233/larvauth) ![Go Version](https://img.shields.io/badge/go-1.25-blue?logo=go)
 
 A unified account system backend, written in Go.
 
@@ -22,8 +22,8 @@ A unified account system backend, written in Go.
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/GuaiZai233/Larvar.git
-    cd Larvar
+    git clone https://github.com/GuaiZai233/larvauth.git
+    cd larvauth
     ```
 
 2.  Install dependencies:

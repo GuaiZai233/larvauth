@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/GuaiZai233/Larvar/internal/auth"
+	"github.com/GuaiZai233/larvauth/internal/auth"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"

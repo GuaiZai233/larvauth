@@ -1,4 +1,4 @@
-module github.com/GuaiZai233/Larvar
+module github.com/GuaiZai233/larvauth
 
 go 1.25.4
 

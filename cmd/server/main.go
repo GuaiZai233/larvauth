@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/GuaiZai233/Larvar/internal/auth"
-	"github.com/GuaiZai233/Larvar/internal/db"
-	"github.com/GuaiZai233/Larvar/internal/router"
+	"github.com/GuaiZai233/larvauth/internal/auth"
+	"github.com/GuaiZai233/larvauth/internal/db"
+	"github.com/GuaiZai233/larvauth/internal/router"
 	"github.com/gin-gonic/gin"
 )
 

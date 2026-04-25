@@ -2,11 +2,13 @@ package auth
 
 import (
 	"errors"
-	"github.com/GuaiZai233/Larvar/internal/db"
+	"github.com/GuaiZai233/larvauth/internal/db"
 	"regexp"
 )
 
-var usernameRegexp = regexp.MustCompile(`^[A-Za-z][A-Za-z0-9_-]{2,19}$`)
+// username must start with a letter, be 3-20 chars long, contain only letters, digits or hyphen,
+// and cannot end with a hyphen. Underscore is not allowed.
+var usernameRegexp = regexp.MustCompile(`^[A-Za-z](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){2,19}$`)
 
 func LoginUser(username string, password string) (string, error) {
 	// get DB

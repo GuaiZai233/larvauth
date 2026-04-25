@@ -23,7 +23,7 @@ func GenerateToken(userID uint, username string) (string, error) {
 		RegisteredClaims: jwt.RegisteredClaims{
 			ExpiresAt: jwt.NewNumericDate(expirationTime),
 			IssuedAt:  jwt.NewNumericDate(time.Now()),
-			Issuer:    "Larvar",
+			Issuer:    "LarvAuth",
 		},
 	}
 

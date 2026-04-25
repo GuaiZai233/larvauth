@@ -13,7 +13,7 @@ func ConnectDB() {
 		return
 	}
 	var err error
-	DB, err = gorm.Open(sqlite.Open("larvar.db"), &gorm.Config{})
+	DB, err = gorm.Open(sqlite.Open("larvauth.db"), &gorm.Config{})
 	if err != nil {
 		log.Panic("连接至数据库失败：", err)
 	}

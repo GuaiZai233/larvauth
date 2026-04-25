@@ -12,7 +12,7 @@ services:
     environment:
       - GIN_MODE=release
     restart: unless-stopped
-    container_name: larvar-app
+    container_name: larvauth-app
 
 volumes:
   app-data:
